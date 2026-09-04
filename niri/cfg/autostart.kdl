@@ -1,0 +1,8 @@
+// ────────────── Startup Applications ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
+
+    spawn-at-startup "noctalia"
+    spawn-at-startup "firefox"
+    spawn-at-startup "spotify"
+    spawn-at-startup "discord"
+    spawn-at-startup "obs" "--startreplaybuffer" "--minimize-to-tray"
