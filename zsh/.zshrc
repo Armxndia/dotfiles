@@ -31,7 +31,7 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
-alias clear='clear && fastfetch'
+alias clear='clear && pokemon-colorscripts --no-title -s -r | fastfetch -c $HOME/.config/fastfetch/config-pokemon.jsonc --logo-type file-raw --logo-height 10 --logo-width 5 --logo -'
 alias cls='clear'
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
