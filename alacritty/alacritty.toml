@@ -1,6 +1,6 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/bluish.toml"
+    "~/.config/alacritty/themes/themes/ashes_dark.toml"
 ]
 working_directory = "None"
 live_config_reload = true
@@ -14,7 +14,7 @@ dimensions = { columns = 100, lines = 30 }
 dynamic_padding = true
 decorations = "Full"
 opacity = 0.7
-title = "Alacritty@CachyOS"
+title = "Alacritty"
 class = { instance = "Alacritty", general = "Alacritty" }
 decorations_theme_variant = "Dark"
 
@@ -23,47 +23,23 @@ history = 10000
 multiplier = 3
 
 [font]
-normal = { family = "CaskaydiaCove Nerd Font", style = "Regular"}
+normal = { family = "Jet Brains Mono Nerd Font", style = "Regular"}
 size = 10.0
 
 [font.bold]
-family = "CaskaydiaCove Nerd Font"
+family = "Jet Brains Mono Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "CaskaydiaCove Nerd Font"
+family = "Jet Brains Mono Nerd Font"
 style = "Italic"
 
 [font.bold_italic]
-family = "CaskaydiaCove Nerd Font"
+family = "Jet Brains Mono Nerd Font"
 style = "Bold Italic"
 
 [colors]
 draw_bold_text_with_bright_colors = true
-
-[colors.primary]
-background = "0x2E3440"
-foreground = "0xD8DEE9"
-
-[colors.normal]
-black = "0x3B4252"
-red = "0xBF616A"
-green = "0xA3BE8C"
-yellow = "0xEBCB8B"
-blue = "0x81A1C1"
-magenta = "0xB48EAD"
-cyan = "0x88C0D0"
-white = "0xE5E9F0"
-
-[colors.bright]
-black = "0x4C566A"
-red = "0xBF616A"
-green = "0xA3BE8C"
-yellow = "0xEBCB8B"
-blue = "0x81A1C1"
-magenta = "0xB48EAD"
-cyan = "0x8FBCBB"
-white = "0xECEFF4"
 
 [selection]
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
